@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-day_data = pd.read_csv('day.csv')
-hour_data = pd.read_csv('hour.csv')
+day_data = pd.read_csv('./day.csv')
+hour_data = pd.read_csv('./hour.csv')
 
 st.title("🚲 Bike Rental Dashboard")
 
